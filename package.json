@@ -1,0 +1,41 @@
+{
+  "name": "rehype-id",
+  "version": "1.0.1",
+  "description": "rehype plugin to add `id` attributes to all elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcastillogi/rehype-id.git"
+  },
+  "keywords": [
+    "html",
+    "id",
+    "plugin",
+    "rehype",
+    "rehype-plugin",
+    "markdown"
+  ],
+  "type": "module",
+  "author": {
+    "name": "Daniel Castillo",
+    "url": "https://dcastillogi.com"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dcastillogi/rehype-id/issues"
+  },
+  "homepage": "https://github.com/dcastillogi/rehype-id#readme",
+  "dependencies": {
+    "hast-util-heading-rank": "^3.0.0",
+    "rehype": "^13.0.1",
+    "unist-util-visit": "^5.0.0",
+    "uuid-by-string": "^4.0.0"
+  }
+}
