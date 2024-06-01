@@ -1,6 +1,6 @@
 {
   "name": "rehype-id",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "rehype plugin to add `id` attributes to all elements",
   "main": "index.js",
   "scripts": {
